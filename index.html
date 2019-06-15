@@ -1,7 +1,63 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+            body, html {
+                height: 100%;
+            }
+            body {
+                background: #2C2F33;
+                margin: 0;
+                color: #FFFFFF;
+                font-family: 'Roboto', sans-serif;
+            }
+            hr {
+                margin: auto;
+                width: 40%;
+            }
+
+            .main-header {
+                background-color: #23272A;
+                height: 100%;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                font-size: 25px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .topleft {
+                position: absolute;
+                top: 0;
+                left: 16px;
+            }
+            .middle {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+        </style>
+    </head>
     <body>
-        <h1>Hello Fokas</h1>
-        <p>Ur foka is dead</p>
+        <div class="main-header">
+            <div class="topleft">
+                <p>Morsunist Developers presents..</p>
+            </div>
+            <div class="middle">
+                <h1>Morsunist Project</h1>
+                <hr>
+                <p>A multi-functional discord bot</p>
+            </div>
+        </div>
+        <div style="margin-left: 10%; margin-right: 10%;">
+            <div class="features">
+                <h1>Why our bot?</h1>
+                <p>Because yes</p>
+            </div>
+        </div>
     </body>
 </html>
