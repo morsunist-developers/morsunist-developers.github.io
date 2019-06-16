@@ -1,48 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-            body, html {
-                height: 100%;
-            }
-            body {
-                background: #2C2F33;
-                margin: 0;
-                color: #FFFFFF;
-                font-family: 'Roboto', sans-serif;
-            }
-            hr {
-                margin: auto;
-                width: 40%;
-            }
-
-            .main-header {
-                background-color: #23272A;
-                /*background-image: url('./src/images/main.png');*/
-                height: 100%;
-                background-position: center;
-                background-size: cover;
-                position: relative;
-                font-size: 25px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
-            .topleft {
-                position: absolute;
-                top: 0;
-                left: 16px;
-            }
-            .middle {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                text-align: center;
-            }
-
-        </style>
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./src/css/main.css">
+        <link rel="stylesheet" href="./src/css/welcome-page.css">
+        <link rel="stylesheet" href="./src/css/welcome.css">
         <title>Morsunist Project</title>
     </head>
     <body>
@@ -56,10 +18,55 @@
                 <p>A multi-purpose discord bot</p>
             </div>
         </div>
-        <div style="margin-left: 10%; margin-right: 10%;">
-            <div class="features">
-                <h1>Why our bot?</h1>
-                <p>Because yes</p>
+
+        <div class="main-article">
+            <div class="contener-whatitis">
+                <div class="column-left">
+                    <h1>What is Morsunist Project?</h1>
+                    <p>Morsunist Project is a multi-purpose discord bot aimed to server management and spreading of morsunism.</p>
+                </div>
+                <div class="column-right">
+                    <h1>What features it have?</h1>
+                    <p>Our bot can plays music and kill your seal.</p>
+                </div>
+            </div>
+
+            <div style="display: block;"></div>
+
+            <hr style="margin-bottom: 3%; margin-top: 3%;">
+
+            <div class="stats">
+                <div class="column">
+                    <div class="card">
+                        <p><i class="fa fa-user"></i></p>
+                        <h3>0</h3>
+                        <p>Patrons</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <p><i class="fa fa-check"></i></p>
+                        <h3>3</h3>
+                        <p>Guilds</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <p><i class="fa fa-smile-o"></i></p>
+                        <h3>454</h3>
+                        <p>Commands</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <p><i class="fa fa-coffee"></i></p>
+                        <h3>1</h3>
+                        <p>Blacklisted</p>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
