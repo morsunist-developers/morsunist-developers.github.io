@@ -23,6 +23,7 @@ hr {
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .white-btn {
     border-color: white;
@@ -34,10 +35,10 @@ hr {
     color: #23272A;
 }
 .green-btn {
-    border-color: green;
-    color: green;
+    border-color: rgb(65, 177, 73);
+    color: rgb(65, 177, 73);
 }
 .green-btn:hover {
-    background-color: green;
+    background-color: rgb(65, 177, 73);
     color: #23272A;
 }
