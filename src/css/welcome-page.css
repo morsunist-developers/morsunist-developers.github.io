@@ -34,14 +34,11 @@
 .contener-whatitis {
     font-size: 20px;
     position: relative;
+    margin-top: 5%;
 }
 .contener-whatitis .column-left {
-    position: relative;
-    top: 0;
-    left: 0;
+    text-align: left;
 }
 .contener-whatitis .column-right {
-    position: relative;
-    top: 0;
-    right: 0;
+    text-align: right;
 }
