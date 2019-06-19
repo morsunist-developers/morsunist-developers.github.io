@@ -1,0 +1,45 @@
+
+.stats {
+    box-sizing: border-box;
+    margin: 0 -5px;
+    position: relative;
+}
+.stats .column {
+    float: left;
+    width: 24%;
+    padding: 0 5px;
+}
+.stats::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .stats .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+.stats .column .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #23272A;
+    color: white;
+}
+.fa {
+    font-size: 50px;
+}
+
+.contener-whatitis {
+    font-size: 20px;
+    position: relative;
+    margin-top: 5%;
+}
+.contener-whatitis .column-left {
+    text-align: right;
+}
+.contener-whatitis .column-right {
+    text-align: left;
+}
