@@ -43,3 +43,11 @@ hr {
     background-color: rgb(65, 177, 73);
     color: #23272A;
 }
+
+a {
+    color: #E85B46;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(194, 76, 58);
+}
