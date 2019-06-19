@@ -51,3 +51,7 @@ a {
 a:hover {
     color: rgb(194, 76, 58);
 }
+
+ol {
+    list-style-type: square;
+}
