@@ -14,6 +14,7 @@ body {
 hr {
     margin: auto;
     width: 40%;
+    border: 1px solid #23272A;
 }
 
 .btn {
