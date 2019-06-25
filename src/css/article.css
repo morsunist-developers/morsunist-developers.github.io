@@ -3,11 +3,15 @@
     box-sizing: border-box;
     margin: 0 -5px;
     position: relative;
+    justify-content: center;
 }
 .stats .column {
     float: left;
-    width: 24%;
+    width: 23%;
     padding: 0 5px;
+}
+.stats .column .card:hover {
+    background-color: rgb(51, 55, 58);
 }
 .stats::after {
     content: "";
@@ -27,6 +31,7 @@
     text-align: center;
     background-color: #23272A;
     color: white;
+    cursor: not-allowed;
 }
 .fa {
     font-size: 50px;
